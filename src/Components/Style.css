@@ -1,0 +1,268 @@
+
+/* NAVBAR */
+/* .head{ */
+    /* background-color: red; */
+    /* position: absolute; */
+    /* position: fixed; */
+/* } */
+
+
+.mainnavdiv{
+    /* background-color: red; */
+    /* position: absolute; */
+    color: black;
+   padding-left: 10vw;
+   padding-right: 10vw;
+   top: 0;
+}
+.navpart2{
+    margin-left: 34vw;
+    
+}
+.navmar{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+/* NAVBAR */
+
+
+/* FIRSTBOX */
+
+.firstbox{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    align-items: center;
+    /* border: 5px solid red; */
+    background-image: url("../Images/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pay{
+    /* background-color: red; */
+    margin-left: 10vw;
+    text-align: left;
+    font-weight: 1000;
+
+    width: 50vw;
+}
+
+/* FIRSTBOX */
+
+
+/* SECONDBOX */
+
+.secondbox{
+    width: 100vw;
+    height: 100%;
+    margin-top: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+
+.header{
+
+    background-color: #1c3988;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: aliceblue;
+    padding-left: 15vw;
+    width: 100vw;
+    height: 5rem;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    /* margin-top: 4vw; */
+
+}
+
+
+.secondimage{
+    display: block;
+    height: 100%;
+    width: 100%;
+  
+    margin: 2vw;
+    
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.project{
+    background-image: url("../Images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    width: 100vw;
+    /* background-color: #106eea; */
+    /* border: 5px solid red; */
+    height: 300px;
+    color: aliceblue;
+}
+
+.divlogo{
+    /* border: 5px solid red; */
+    height: 200px;
+    margin: 2vw;
+    margin-top: 6vw;
+    text-align: center;
+    color: #f2f4fc;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 1rem;
+    /* padding: 10px; */
+    
+}
+
+/* About Project Application etc */
+
+/* .about{
+    width: 100vw;
+    height: 300px;
+    background-color: #1c3988;
+
+} */
+
+
+
+/* WHAT YOU LEARN */
+
+
+.what{
+    background-image: url("../Images/bgimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4vw;
+    height: auto;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whatsec{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+}
+
+.whatdiv{
+    padding-top: 2vw;
+    margin: 0.5vw;
+    height: 265px;
+    /* border: 5px solid yellow; */
+    background-image: linear-gradient(180deg,#ffffff 0%, #f2f4fc 100%);
+    width: 25%;
+}
+
+.divwhat{
+    /* border: 5px solid red; */
+    height: auto;
+    margin-top: 8vw;
+    margin-bottom: 2vw;
+}
+
+/* WHAT YOU LEARN */
+
+
+
+/* REVIEW */
+
+.secondjum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+}
+
+.imgbox{
+    height: 575px;
+    width: 40vw;
+}
+.cardiv{
+
+    border: 5px solid red;
+    height: 575px;
+    width: 4vw;
+}
+
+
+
+/* PATNER */
+
+.patner{
+    width: 100vw;
+    height: 200px;
+    background-color: #1c3988;
+}
+
+
+
+
+
+
+
+
+/* BACK */
+
+.back{
+    position: fixed;
+    right: 2vw;
+    bottom: 2vw;
+    background-color: #106eea;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    border: none;
+    color: aliceblue;
+    display: none;
+
+}
+
+@media (max-width: 366px) { 
+	.content{
+        flex-direction: column;
+        height: auto;
+    }
+    .what{
+        flex-direction: column;
+
+    }
+    .whatsec{
+        flex-direction: column;
+        width: auto;
+        
+
+    }
+    .whatdiv{
+        width: 80vw;
+        margin: .5rem;
+    }
+}
